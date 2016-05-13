@@ -13,11 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        youtubeplayer.cpp
+        youtubeplayer.cpp \
+    logindialog.cpp
 
-HEADERS  += youtubeplayer.h
+HEADERS  += \
+    logindialog.h
 
-FORMS    += youtubeplayer.ui
+FORMS    += youtubeplayer.ui \
+    logindialog.ui
 
 OTHER_FILES += \
     ../client_id.json \
