@@ -18,3 +18,7 @@ SOURCES += main.cpp\
 HEADERS  += youtubeplayer.h
 
 FORMS    += youtubeplayer.ui
+
+OTHER_FILES += \
+    ../client_id.json \
+    client_id.json
