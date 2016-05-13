@@ -13,14 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        youtubeplayer.cpp \
-    ../youtubeoatho.cpp
+        youtubeplayer.cpp
 
-HEADERS  += youtubeplayer.h \
-    ../youtubeoatho.h
+HEADERS  += youtubeplayer.h
 
-FORMS    += youtubeplayer.ui \
-    ../youtubeoatho.ui
+FORMS    += youtubeplayer.ui
 
 OTHER_FILES += \
     ../client_id.json \
